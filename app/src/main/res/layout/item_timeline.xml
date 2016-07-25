@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <h.d.y.timeline.TimeLineMarker
+        android:id="@+id/timeLineMarker"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        app:beginLine="@color/colorPrimary"
+        app:endLine="@color/colorPrimary"
+        app:lineSize="2dp"
+        app:marker="@drawable/ic_timeline_marker"
+        app:markerSize="22dp"
+        app:text="1"
+        app:textSize="14dp"
+        app:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/desc_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="16dp" />
+</LinearLayout>

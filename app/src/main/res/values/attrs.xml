@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeLineMarker">
+        <attr name="markerSize" format="dimension" />
+        <attr name="marker" format="color|reference" />
+        <attr name="beginLine" format="color|reference" />
+        <attr name="endLine" format="color|reference" />
+        <attr name="lineSize" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="text" format="string" />
+    </declare-styleable>
+</resources>
